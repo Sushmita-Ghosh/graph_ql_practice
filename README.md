@@ -3,7 +3,11 @@
 * GraphQL is an alternative to REST API. In rest api - we fetch our data through different methods and there are lot of endpoints. But with graph ql we have a single endpoint - and we customize what we want on the frontend.
 
 * GraphQL mainly solves two major problems that we face in REST API:
+
+
       * OverFeching: Suppose we need to fetch a user with an id of 123 from server - and suppose we only need the firstname and id from backend , but whenever we make a request from api - we will get all the redundent info from server - which is not required.
+
+
       * UnderFetching: Suppose a user wants email info and no of quotes of user - we make two api requests - one to the /user/:userID & other to /quotes/:userID - Since these are two diff entities we have to make the two requests. This is underfetching.
 
 
