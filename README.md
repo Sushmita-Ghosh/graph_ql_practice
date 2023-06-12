@@ -16,5 +16,10 @@
 2. Mutation; :- to post/update / del data
 3. Resolver: has logic to handle query / mutation operation
 
+### APOLLO CLIENT:
+
+* Apollo Client caches the data that is returned from the server - when an graph ql api request is made.
+* 
+
 
 [YT](https://www.youtube.com/watch?v=NNNcoWZ6Ih0&list=PLB97yPrFwo5i9zDrWfvkohPec3Q6EEC9J)
