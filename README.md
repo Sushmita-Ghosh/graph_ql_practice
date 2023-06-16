@@ -18,7 +18,7 @@
 
 ### APOLLO CLIENT:
 
-* Apollo Client caches the data that is returned from the server - when an graph ql api request is made.
+* Apollo Client caches the data that is returned from the server - when an graph ql api request is made, so we do not have to make the same network request again.
 * 
 
 
