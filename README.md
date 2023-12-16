@@ -23,3 +23,5 @@
 
 
 [YT](https://www.youtube.com/watch?v=NNNcoWZ6Ih0&list=PLB97yPrFwo5i9zDrWfvkohPec3Q6EEC9J)
+
+[YT](https://www.youtube.com/watch?v=WtkKwO1viI8&t=349s)
