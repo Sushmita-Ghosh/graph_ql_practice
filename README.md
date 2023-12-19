@@ -16,12 +16,9 @@
 2. Mutation; :- to post/update / del data
 3. Resolver: has logic to handle query / mutation operation
 
-### APOLLO CLIENT:
-
-- Apollo Client caches the data that is returned from the server - when an graph ql api request is made, so we do not have to make the same network request again.
-- Apollo is a framework which helps us run Graphql server
-
 ### APOLLOSERVER:
+
+- Apollo is a framework which helps us run Graphql server
 
 - ApolloServer takes in two things
 
@@ -48,6 +45,22 @@ const server = new ApolloServer({
 * whenever we need to fetch something from graphql server it is called querying and if want to send something to the graphql server it is called mutation.
 
 - All the logic is written inside resolvers
+
+- How to launch : http://localhost:8000/graphql
+
+- `getUser(id: ID!): User` - It means give a User with type(id = ID) and it will return an User that matches
+
+### APOLLO CLIENT:
+
+- Apollo Client caches the data that is returned from the server - when an graph ql api request is made, so we do not have to make the same network request again.
+
+- Apollo CLient is used in frontend/ client side. [REF](https://www.apollographql.com/docs/react/get-started/)
+
+- have to create an instance of `ApolloCLient`
+
+- ```ApolloProvider`````` is like Context Provider - helps the client to be accessible anywhere in the app.
+
+- `useQuery` is a hook which takes in our graphql query and returns data, error, loading etc
 
 [YT](https://www.youtube.com/watch?v=NNNcoWZ6Ih0&list=PLB97yPrFwo5i9zDrWfvkohPec3Q6EEC9J)
 
